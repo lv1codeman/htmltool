@@ -1,0 +1,68 @@
+.datepicker-dropdown {
+    top: 0;
+    left: 0;
+    padding: 4px;
+    /*    background-color: #fff;
+    border-radius: 10px;*/
+}
+
+/*.datepicker table tr td {
+    border: dotted 2px #ffdd99;
+    background-color: #ffdda0;
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+    border-radius: 50%;
+}
+
+.datepicker table tr td.highlighted {
+    background: #cbf1f7;
+    border-radius: 10px;
+}*/
+
+.bd {
+    border: solid 2px #ffdd99;
+}
+
+.bd2 {
+    border: solid 2px #000;
+}
+
+.kv {
+    width: 100%;
+    height: 100vh;
+}
+
+.kv .container {
+    height: 100%;
+}
+
+.kv .container>.row {
+    height: 100%;
+}
+
+.kv .box {
+    text-align: center;
+}
+
+
+.form-control {
+    margin-right: 1px;
+}
+
+.input-group-addon {
+    border: 1px solid black;
+    background-color: #d9d9d9;
+}
+
+#datepickicon {
+    font-size: 32px;
+    padding: 0px 5px;
+}
+
+/*.datepicker .prev .ui-icon{
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+}*/
+
+.table-condensed>thead>tr:nth-child(2)>.next {
+    font-size: 0;
+    background: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-window-stack' viewBox='0 0 16 16'%3E   %3Cpath d='M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z'/%3E   %3Cpath d='M12 1a2 2 0 0 1 2 2 2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2 2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10ZM2 12V5a2 2 0 0 1 2-2h9a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1Zm1-4v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8H3Zm12-1V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v2h12Z'/%3E %3C/svg%3E") 50% 50% / contain no-repeat;
+}

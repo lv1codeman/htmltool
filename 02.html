@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>titlecontent</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="kv">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col">
+                    <div class="box">
+                        <!-- <div>Date: <input id="datepicker"></div> -->
+                        <div class="form-group">
+                            <div class='input-group date' id='datepicker'>
+                                <input type='text' class="form-control" />
+                                <div class="input-group-addon">
+                                    <!-- <i class="far fa-calendar fa-2x"></i> -->
+                                    <!-- <span class="input-group-text">開啟日曆</span> -->
+                                    <i id="datepickicon" class="bi bi-calendar"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <i class="fas fa-user"></i>
+    <i class="bi bi-circle"></i>
+    <i class="bi bi-calendar"></i>
+    <i class="bi-class-name"></i>
+    <i class="fas fa-arrow-left"></i>
+    <i class="fas fa-arrow-right"></i>
+    <i class="far fa-calendar fa-lg"></i>
+    <!-- jQuery Bootstrap JS Popper.JS-->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <!-- Font Awesome JS -->
+    <!-- <script src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script> -->
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    <!-- datepicker JS and locale-->
+    <script src="node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.js"></script>
+    <script src="node_modules/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-TW.min.js"></script>
+    <!-- JS in file -->
+    <script type="text/javascript">
+    $(function() {
+        console.log('jquery is fine.');
+        $('#datepicker').datepicker({
+            language: "zh-TW",
+            format: 'yyyy年m月d日',
+            weekStart: 1,
+            clearBtn: false,
+            orientation: "auto",
+            todayHighlight: true,
+            daysOfWeekHighlighted: "0,6",
+            autoclose: true,
+            leftArrow: '<i class="fas fa-arrow-left"></i>',
+            rightArrow: '<i class=fas fa-arrow-right"></i>'
+        });
+    });
+    </script>
+</body>
+
+</html>

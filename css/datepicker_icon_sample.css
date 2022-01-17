@@ -1,0 +1,92 @@
+.datepicker table {
+    border-collapse: separate;
+    border-spacing: 2px 1px;
+}
+
+.datepicker-dropdown {
+    top: 0;
+    left: 0;
+    padding: 4px;
+    background-color: #6bb9bf;
+    border-radius: 10px;
+}
+
+.datepicker table tr td {
+    border: dotted 1px #ffdd99;
+    background-color: #ffdda0;
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+    border-radius: 50%;
+}
+
+.datepicker table tr td.highlighted {
+    background: #cbf1f7;
+    border-radius: 10px;
+}
+
+.bd {
+    border: solid 2px #ffdd99;
+}
+
+.bd2 {
+    border: solid 2px #000;
+}
+
+.kv {
+    width: 100%;
+    height: 100vh;
+}
+
+.kv .container {
+    height: 100%;
+}
+
+.kv .container>.row {
+    height: 100%;
+}
+
+.kv .box {
+    text-align: center;
+}
+
+
+.form-control {
+    margin-right: 1px;
+}
+
+.input-group-addon {
+    border: 1px solid black;
+    background-color: #d9d9d9;
+}
+
+#datepickicon {
+    font-size: 32px;
+    padding: 0px 5px;
+}
+
+/*.datepicker .prev .ui-icon{
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+}*/
+
+.table-condensed>thead>tr:nth-child(2)>.prev {
+    /*font-size: 0;*/
+    --mask: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-left-circle' viewBox='0 0 16 16'%3E   %3Cpath fill-rule='evenodd' d='M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z'/%3E %3C/svg%3E") 50% 50% / contain no-repeat;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    background: black;
+}
+
+.table-condensed>thead>tr:nth-child(2)>.prev:active {
+    background-color: #e8e8e8;
+}
+
+.table-condensed>thead>tr:nth-child(2)>.next {
+    /*font-size: 0;*/
+    --mask: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrow-right-circle' viewBox='0 0 16 16'%3E   %3Cpath fill-rule='evenodd' d='M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E %3C/svg%3E") 50% 50% / contain no-repeat;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    background: black;
+}
+
+.table-condensed>thead>tr:nth-child(2)>.next:active {
+    background-color: #e8e8e8;
+}
